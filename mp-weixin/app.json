@@ -1,0 +1,106 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/zhiyuanzhe/list",
+    "pages/zhiyuanzhe/add-or-update",
+    "pages/zhiyuanzhe/detail",
+    "pages/shequ/list",
+    "pages/shequ/add-or-update",
+    "pages/shequ/detail",
+    "pages/huodongleixing/list",
+    "pages/huodongleixing/add-or-update",
+    "pages/huodongleixing/detail",
+    "pages/zhiyuanzhehuodong/list",
+    "pages/zhiyuanzhehuodong/add-or-update",
+    "pages/zhiyuanzhehuodong/detail",
+    "pages/huodongbaoming/list",
+    "pages/huodongbaoming/add-or-update",
+    "pages/huodongbaoming/detail",
+    "pages/huodongqiandao/list",
+    "pages/huodongqiandao/add-or-update",
+    "pages/huodongqiandao/detail",
+    "pages/zhengshuxinxi/list",
+    "pages/zhengshuxinxi/add-or-update",
+    "pages/zhengshuxinxi/detail",
+    "pages/huodongfengcai/list",
+    "pages/huodongfengcai/add-or-update",
+    "pages/huodongfengcai/detail",
+    "pages/wenzhangzixun/list",
+    "pages/wenzhangzixun/add-or-update",
+    "pages/wenzhangzixun/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/discusszhiyuanzhehuodong/list",
+    "pages/discusszhiyuanzhehuodong/add-or-update",
+    "pages/discusszhiyuanzhehuodong/detail",
+    "pages/discusshuodongfengcai/list",
+    "pages/discusshuodongfengcai/add-or-update",
+    "pages/discusshuodongfengcai/detail",
+    "pages/discusswenzhangzixun/list",
+    "pages/discusswenzhangzixun/add-or-update",
+    "pages/discusswenzhangzixun/detail",
+    "common/linkOthers/linkOthers",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "基于微信小程序的社区志愿者服务平台 ",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#C6BCFE",
+    "borderStyle": "white",
+    "backgroundColor": "#6553CA",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/zhiyuanzhehuodong/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "志愿者活动"
+      },
+      {
+        "pagePath": "pages/huodongfengcai/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "活动风采"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取地址"
+    }
+  },
+  "requiredPrivateInfos": [
+    "chooseLocation",
+    "getLocation"
+  ],
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "z-swiper-item": "/components/zebra-swiper/components/z-swiper-item/z-swiper-item",
+    "z-swiper": "/components/zebra-swiper/components/z-swiper/z-swiper",
+    "music-play": "/components/musicPlay/musicPlay"
+  }
+}
